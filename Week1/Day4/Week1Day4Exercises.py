@@ -14,24 +14,63 @@ print(int_tup)
 #Reason: Some values remain constant, for example Date of Birth or Gender so using Tuple in this case can be more efficient when packing and unpacking large amounts of fixed values
 
 #Exercise 3: List Manipulation
-basket = ["Banana", "Apples", "Oranges", "Blueberries"]
-basket.remove("Banana")
-basket.remove("Blueberries")
-print(basket)
-basket.append("Kiwi")
-basket.insert(0, "Apples")
-print(basket)
-no_of_apples = basket.count("Apples")
-print(no_of_apples)
-basket.clear()
-print(basket)
+#basket = ["Banana", "Apples", "Oranges", "Blueberries"]
+#basket.remove("Banana")
+#basket.remove("Blueberries")
+#print(basket)
+#basket.append("Kiwi")
+#basket.insert(0, "Apples")
+#print(basket)
+#no_of_apples = basket.count("Apples")
+#print(no_of_apples)
+#basket.clear()
+#print(basket)
 
 #Exercise 4: Floats
 #Recap: A float is an integer containing decimal values whereas an integer is a whole number from negative infinity to infinity
-float_and_int = [ 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]
+#float_and_int = [ 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]
 #loopformation
-start_int = 1.0
-while start_int <= 5:
-    start_int += 0.5
-    print(start_int)
+#start_int = 1.0
+#while start_int <= 5:
+#    start_int += 0.5
+#    print(start_int)
+
+#Exercise 5: For Loop
+#numbers = range(1, 21)
+#for number in numbers:
+#    print(number)
+#for number in numbers:
+#    if number % 2 == 0:
+#         print(number)
+
+#Exercise 6: While Loop
+#name = input('Enter your name:')
+#while True:
+#    if name.isdigit():
+#       name = input('Give the correct name:')
+#    else:
+#        print('Thank you')
+#        break
+
+#Exercise 7: Favorite Fruits
+#fav_fruits = input('Enter your favourite fruits:')
+#fav_fruits_list = fav_fruits.split()
+#print(fav_fruits_list)
+#fruit = input('Name a fruit!')
+#if fruit in fav_fruits_list:
+#    print('You chose one of your favorite fruits! Enjoy!')
+#else:
+#    print('You chose a new fruit. I hope you enjoy it!')
+
+#Exercise 8: Pizza Toppings
+toppings = []
+price_per_topping = 2.50
+
+while True:
+    topping = input('Enter a topping: ')
+
+    if topping == 'quit':
+        break
+#Exercise 9: Cinemax Tickets
+
 
