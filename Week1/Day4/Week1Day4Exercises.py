@@ -1,14 +1,14 @@
 #Exercise 1: Favorite Numbers
-my_fav_numbers = {7, 10}
-my_fav_numbers.remove(10)
-print(my_fav_numbers)
-friend_fav_numbers = {6, 9}
-our_fav_numbers = my_fav_numbers | friend_fav_numbers
-print(our_fav_numbers)
+#my_fav_numbers = {7, 10}
+#my_fav_numbers.remove(10)
+#print(my_fav_numbers)
+#friend_fav_numbers = {6, 9}
+#our_fav_numbers = my_fav_numbers | friend_fav_numbers
+#print(our_fav_numbers)
 
 #Exercise 2: Tuple
-int_tup = (1, 2, 3)
-print(int_tup)
+#int_tup = (1, 2, 3)
+#print(int_tup)
 #int_tup.add(5)
 #print(int_tup)
 #Reason: Some values remain constant, for example Date of Birth or Gender so using Tuple in this case can be more efficient when packing and unpacking large amounts of fixed values
@@ -63,14 +63,18 @@ print(int_tup)
 #    print('You chose a new fruit. I hope you enjoy it!')
 
 #Exercise 8: Pizza Toppings
-toppings = []
-price_per_topping = 2.50
+#total_price = 10
+#toppings = []
 
-while True:
-    topping = input('Enter a topping: ')
+#while True:
+#    user_input = input('Enter a topping OR type "quit" to complete your order: ')
+#    print(f'Adding {user_input} to the toppings list')
+#    if user_input.lower() == 'quit':
+#        break
+#    toppings.append(user_input)
+#    total_price += 0.25
+#print('Final list of toppings:', toppings)
+#print('Total price:', total_price)
 
-    if topping == 'quit':
-        break
 #Exercise 9: Cinemax Tickets
-
 
