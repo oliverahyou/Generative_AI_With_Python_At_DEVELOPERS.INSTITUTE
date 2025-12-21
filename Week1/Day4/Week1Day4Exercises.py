@@ -77,4 +77,24 @@
 #print('Total price:', total_price)
 
 #Exercise 9: Cinemax Tickets
-
+#age_family = []
+#while True:
+#    age = input('Enter the age of the family member OR type "done" to finish: ')
+#    if age.lower() == 'done':
+#        break
+#    elif age.isdigit():
+#        age_family.append(int(age))
+#    else:
+#        print('Please enter a valid age or "done".')
+#price_under_3 = 0
+#price_3_to_12 = 10
+#price_above_12 = 15
+#total_cost = 0
+#for age in age_family:
+#    if age < 3:
+#        total_cost += price_under_3
+#    elif 3 <= age <= 12:
+#        total_cost += price_3_to_12
+#    else:
+#        total_cost += price_above_12
+#print('Total cost for the family tickets is:', total_cost)
