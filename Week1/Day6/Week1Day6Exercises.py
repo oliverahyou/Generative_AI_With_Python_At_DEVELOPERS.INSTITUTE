@@ -64,4 +64,17 @@
 #print(brand)
 
 #Exercise 4: Disney Characters
+users = [
+    "Mickey",
+    "Minnie", 
+    "Donald", 
+    "Ariel", 
+    "Pluto"
+]
+indices= [i for i in range(len(users))]
+print(indices)
+char_to_ind = dict(zip(indices, users))
+print(char_to_ind)
+ind_to_char = dict(zip(users, indices))
+print(sorted(ind_to_char))
 
