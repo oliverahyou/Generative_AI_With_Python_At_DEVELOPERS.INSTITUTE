@@ -64,17 +64,19 @@
 #print(brand)
 
 #Exercise 4: Disney Characters
-users = [
-    "Mickey",
-    "Minnie", 
-    "Donald", 
-    "Ariel", 
-    "Pluto"
-]
-indices= [i for i in range(len(users))]
-print(indices)
-char_to_ind = dict(zip(indices, users))
-print(char_to_ind)
-ind_to_char = dict(zip(users, indices))
-print(sorted(ind_to_char))
+#users = [
+#    "Mickey",
+#     "Minnie", 
+#     "Donald", 
+#     "Ariel", 
+#     "Pluto"
+# ]
+# user_dict = {user: index for index, user in enumerate(users)}
+# print(user_dict)
+# user_dict = {index: user for index, user in enumerate(users)}
+# print(user_dict)
 
+# sort_users = sorted(users)
+# #print(sort_users)
+# user_dict = {user: index for index, user in enumerate(sort_users)}
+# print(user_dict)
